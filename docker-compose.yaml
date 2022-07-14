@@ -13,7 +13,7 @@ services:
     build: .
     command: sleep infinity
     volumes:
-      - .:/workspaces/hello-django/
+      - .:/workspaces/budget/
     ports:
       - "8000:8000"
     environment:

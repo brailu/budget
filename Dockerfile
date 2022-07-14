@@ -11,8 +11,8 @@ RUN useradd --uid ${USER_ID} --gid ${GROUP_ID} -s /bin/bash -m ${USERNAME}
 USER ${USERNAME}
 ENV PATH=$PATH:$HOME/.local/bin
 
-WORKDIR /workspaces/hello-django/
-COPY core /workspaces/hello-django/core/
-COPY main /workspaces/hello-django/main/
-COPY manage.py requirements.txt /workspaces/hello-django/
+WORKDIR /workspaces/budget/
+COPY core /workspaces/budget/core/
+COPY main /workspaces/budget/main/
+COPY manage.py requirements.txt /workspaces/budget/
 RUN python -m pip install --upgrade pip && python -m pip install -r requirements.txt

@@ -1,7 +1,7 @@
 {
-	"name": "hello-django",
+	"name": "budget",
 	"dockerComposeFile": "../docker-compose.yaml",
 	"service": "app",
-	"workspaceFolder": "/workspaces/hello-django/",
+	"workspaceFolder": "/workspaces/budget/",
 	"extensions": ["ms-python.python", "editorconfig.editorconfig", "hashicorp.terraform"]
 }
